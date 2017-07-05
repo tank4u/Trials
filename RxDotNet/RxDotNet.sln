@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxDotNet", "RxDotNet\RxDotNet.csproj", "{EFD00096-EC8F-4E8D-A7A7-024628549549}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8E3ED1B-A963-460A-BB2C-E2EE4D0AA913} = {F8E3ED1B-A963-460A-BB2C-E2EE4D0AA913}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hl7Parser", "Hl7Parser\Hl7Parser.csproj", "{F8E3ED1B-A963-460A-BB2C-E2EE4D0AA913}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFD00096-EC8F-4E8D-A7A7-024628549549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD00096-EC8F-4E8D-A7A7-024628549549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD00096-EC8F-4E8D-A7A7-024628549549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD00096-EC8F-4E8D-A7A7-024628549549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E3ED1B-A963-460A-BB2C-E2EE4D0AA913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E3ED1B-A963-460A-BB2C-E2EE4D0AA913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E3ED1B-A963-460A-BB2C-E2EE4D0AA913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E3ED1B-A963-460A-BB2C-E2EE4D0AA913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
