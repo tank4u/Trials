@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nRulesRuleEngine", "nRulesR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesWF", "RulesWF\RulesWF.csproj", "{A5F79FAD-409A-4659-93B4-B3D416EF1357}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drools.Net", "Drools.Net\Drools.Net.csproj", "{5E3B734E-9ABC-4B78-8B00-1E4DC2AFBB7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{A5F79FAD-409A-4659-93B4-B3D416EF1357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F79FAD-409A-4659-93B4-B3D416EF1357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F79FAD-409A-4659-93B4-B3D416EF1357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3B734E-9ABC-4B78-8B00-1E4DC2AFBB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3B734E-9ABC-4B78-8B00-1E4DC2AFBB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3B734E-9ABC-4B78-8B00-1E4DC2AFBB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3B734E-9ABC-4B78-8B00-1E4DC2AFBB7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

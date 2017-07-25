@@ -1,0 +1,33 @@
+﻿//package is like using to refer to Other project types, eg: DiscountRule.Print()
+package Drools.Net
+
+rule "LargeOrder"
+	when
+		custOrder : CustomerRecord( Value > 50 )
+	then
+		//DiscountRule.Print("Large Order");
+		custOrder.Print(string.Format("Large Order - Value {0}", custOrder.Value));
+	end
+
+rule "OldCustomer"
+	when
+		customer : CustomerRecord( DaysSinceLastOrder > 90, Status != "Re-Active" )
+	then		
+		customer.Status = "Re-Active";
+		//customer.Value = 60;
+
+		//*Forward chaining*: forces Drools to re-evaluate rules based on Status change above
+		//Note: Without modify, it only runs the rule ones
+		modify(customer);
+
+		//Drools.Net.DiscountRule.Print("Old Customer");
+		customer.Print("Old Customer");
+	end
+
+rule "Discount"
+	when
+		Disc : CustomerRecord( Value > 50, Status == "Re-Active" )
+	then
+		//Drools.Net.DiscountRule.Print("Welcome BACK Discount");
+		Disc.Print("Welcome BACK Discount");
+	end
