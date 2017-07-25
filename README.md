@@ -2,9 +2,9 @@
 
  - RuleEngine:
  
-    - Build solution donwloads necessary packages, if not downloaded then manually download required packages.
+    - Build solution: downloads necessary packages, if not downloaded then manually download required packages.
   
-    - Change default project to run code for 'nRules' or 'WF rules engine' examples.
+    - Change default project to run code for 'nRules' or 'WF rules engine' or 'Drools.Net' examples.
 
  - RxDotNet: 
  
